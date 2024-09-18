@@ -1,0 +1,823 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>AmazonLogin</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Sep 18, 2024 07:47:46 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login</p>
+            <p class="text-sm">
+              <span>7:47:46 pm</span> / <span>00:00:03:393</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login</h5>
+<span class='badge badge-success'>09.18.2024 7:47:46 pm</span>
+<span class='badge badge-danger'>09.18.2024 7:47:50 pm</span>
+<span class='badge badge-default'>00:00:03:393</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:47:50 pm</td>
+        <td>
+          <span class='badge white-text green'>Browser chrome url https://www.amazon.in opens..</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">user validation</p>
+            <p class="text-sm">
+              <span>7:47:50 pm</span> / <span>00:01:04:151</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">user validation</h5>
+<span class='badge badge-success'>09.18.2024 7:47:50 pm</span>
+<span class='badge badge-danger'>09.18.2024 7:48:55 pm</span>
+<span class='badge badge-default'>00:01:04:151</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:48:22 pm</td>
+        <td>
+          <span class='badge white-text green'>uid is valid</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:48:55 pm</td>
+        <td>
+          <span class='badge white-text green'>pwdd is valid</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Product Search-LCD</p>
+            <p class="text-sm">
+              <span>7:48:55 pm</span> / <span>00:00:10:266</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Product Search-LCD</h5>
+<span class='badge badge-success'>09.18.2024 7:48:55 pm</span>
+<span class='badge badge-danger'>09.18.2024 7:49:05 pm</span>
+<span class='badge badge-default'>00:00:10:266</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:04 pm</td>
+        <td>
+          <span class='badge white-text green'>Total products founud for LCD : 18</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:05 pm</td>
+        <td>
+          <span class='badge white-text green'>LG 139 cm (55 inches) 4K Ultra HD Smart LED TV 55UQ7550PSF (Ceramic Black)</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:05 pm</td>
+        <td>
+          <span class='badge white-text green'>IBELL 80cm (32 inches) Smart LED TV - HD Ready, Android 9.0, Smart Features, Crisp Display, Sleek Design (LES325SB, Black)</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:05 pm</td>
+        <td>
+          <span class='badge white-text green'>SYNERGY B1 Electric Cycle with Dual Disc Brakes, 250w BLDC Motor, 5.8Ah Li-Ion Battery, Throttle with Battery Indicator, 95% Pre-Assembled with Charger, Yellow Color (Without LCD Display, 5.8ah)</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:05 pm</td>
+        <td>
+          <span class='badge white-text green'>ViewSonic (from USA) (68.58 Cm) 27Inch 240Hz IPS QHD 2K Gaming Monitor,1ms, HDR10, FreeSync, 137% sRGB, Tilt, Eye Care, 2 x HDMI, Display Port - VX2758A-2K-PRO-3</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:05 pm</td>
+        <td>
+          <span class='badge white-text green'>Sony Bravia 189 cm (75 inches) 4K Ultra HD Smart LED Google TV KD-75X82L (Black)</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:05 pm</td>
+        <td>
+          <span class='badge white-text green'>FRONTECH 20 Inch HD LED Monitor | Refresh Rate 60 Hz, 1600 x 900 Pixels | Wall Mountable Slim & Stylish Design with 16.7M Colors | HDMI & VGA Ports, Built-in Power Supply (MON-0054,Black)</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:05 pm</td>
+        <td>
+          <span class='badge white-text green'>Kodak 108 cm (43 inches) Bezel-Less Design Series 4K Ultra HD Smart Android LED TV 43UHDX7XPROBL (Black)</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:05 pm</td>
+        <td>
+          <span class='badge white-text green'>LG - 20M39H, 19.5 Inch (49.53 Cm) Hd, 1366 X 768 Pixels Tn Panel LCD Monitor with Hdmi & Vga Port, Wall Mount, 3 Year Warranty (Black)</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:05 pm</td>
+        <td>
+          <span class='badge white-text green'>Acer ED240Q 23.6 inch (59.94 cm) LED 1920 x 1080 Pixels Full HD Backlit LED Curved Monitor LCD VA Panel Monitor| 250 Nits Brightness| 1500R I 1MS, 75Hz Refresh Rate| HDMI & VGA | Black</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:05 pm</td>
+        <td>
+          <span class='badge white-text green'>Cube Vision Enter 15.4 Inch Full Hd Monitor (E-M16Ha Hdmi & Vga Led), Black</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:05 pm</td>
+        <td>
+          <span class='badge white-text green'>HUION Kamvas 13 Graphic Pen Tablet, Full Laminated Screen & Tilt Function | Support MacOS,Windows, Android, Battery Free Stylus | Pressure Sensitivity-8192(13.3inch)(Tilt Adjustable Stand)-Black</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:05 pm</td>
+        <td>
+          <span class='badge white-text green'>AOC 22B1Hs 21.5 Inch (54.6 Cm), 1920 X 1080 Pixels, Full Hd LCD Monitor with Led Backlight with Hdmi/Vga Port, Black</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:05 pm</td>
+        <td>
+          <span class='badge white-text green'>HUION KAMVAS 22 Plus Graphic Pen Display Tablet | Full-Laminated, QD | MacOS, Windows, Android Supported | Battery-Free Stylus 8192 Pressure Sensitivity| Tilt Adjustable Stand (21.5inch) - Black</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:05 pm</td>
+        <td>
+          <span class='badge white-text green'>Consistent Led Monitor (CTM 2001) 48.26Cm Wide Display with Hdmi, Black</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:05 pm</td>
+        <td>
+          <span class='badge white-text green'>SHUBHU TEQOPOWER LCD Writing Tablet 8.5inches E-Note Pad Color (Multi)</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:05 pm</td>
+        <td>
+          <span class='badge white-text green'>URCERI Light Meter Digital Illuminance Meter Handheld Ambient Temperature Measurer with Range up to 200</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:05 pm</td>
+        <td>
+          <span class='badge white-text green'>Viewsonic Va2256-H, 22 Inch (54.6 Cm) Full Hd 1920 x 1080 Pixels Superclear IPS Panel Frameless Bezel, 75Hz AMD Freesync, Flicker-Free, Blue Light Filter, Viewmode, Win10 Cert, Hdmi & Vga, Black</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:05 pm</td>
+        <td>
+          <span class='badge white-text green'>SWIPE Slate 3 HD IPS 10.1 INCH, 2.0 Ultra Fast Octa CORE T618 (3GB+32GB, Glacier Blue)</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Product Search-Mobile</p>
+            <p class="text-sm">
+              <span>7:49:05 pm</span> / <span>00:00:03:463</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Product Search-Mobile</h5>
+<span class='badge badge-success'>09.18.2024 7:49:05 pm</span>
+<span class='badge badge-danger'>09.18.2024 7:49:08 pm</span>
+<span class='badge badge-default'>00:00:03:463</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:08 pm</td>
+        <td>
+          <span class='badge white-text green'>Total products founud for Mobile : 18</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:08 pm</td>
+        <td>
+          <span class='badge white-text green'>TECNO POVA 6 NEO (Midnight Shadow, 8GB+256GB)| Advanced AI Features | 108MP Ultra Clear AI Camera | D6300 Powerful Processor | 5 Year Lag Free Fluency | 5000 mAh Battery | in Build Infrared and NFC</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:08 pm</td>
+        <td>
+          <span class='badge white-text green'>Lava Blaze 3 5G - Glass Blue (6+6*GB RAM) Vibe Light|Premium Glass Back|Dimensity 6300 Processor |6.5 inch 90Hz Punch Hole Display|50MP+2MP AI Dual Rear Camera|5000 mAh Battery|18W Fast Charging</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:08 pm</td>
+        <td>
+          <span class='badge white-text green'>POCO C65 (Matte Black 4GB RAM 128GB Storage)</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:08 pm</td>
+        <td>
+          <span class='badge white-text green'>Lava Blaze 3 5G - Glass Gold (6+6*GB RAM) Vibe Light|Premium Glass Back|Dimensity 6300 Processor |6.5 inch 90Hz Punch Hole Display|50MP+2MP AI Dual Rear Camera|5000 mAh Battery|18W Fast Charging</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:08 pm</td>
+        <td>
+          <span class='badge white-text green'>TECNO POP 8 (Gravity Black, 4GB+64GB)| 90Hz Punch Hole Display with Dynamic Port & Dual Speakers with DTS| 5000mAh Battery |10W Type-C| Side Fingerprint Sensor| Octa-Core Processor</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:08 pm</td>
+        <td>
+          <span class='badge white-text green'>TECNO Spark Go 2024 | Gravity Black, (3GB+64GB)| Segment First 90Hz Dot-in Display with Dynamic Port & Dual Speakers with DTS| 5000mAh| 10W Type-C| Fingerprint Sensor| Octa-Core Processor</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:08 pm</td>
+        <td>
+          <span class='badge white-text green'>Itel A70 Smartphone</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:08 pm</td>
+        <td>
+          <span class='badge white-text green'>TECNO Spark 20C | Gravity Black, (8GB+128GB)| 50MP Main Camera + 8MP Selfie| 90Hz Dot-in Display with Dynamic Port & Dual Speakers with DTS| 5000mAh Battery |18W Type-C| Helio G36 Processor</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:08 pm</td>
+        <td>
+          <span class='badge white-text green'>realme NARZO 70x 5G (Ice Blue, 6GB RAM,128GB Storage)|120Hz Ultra Smooth Display|Dimensity 6100+ 6nm 5G|50MP AI Camera|45W Charger in The Box</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:08 pm</td>
+        <td>
+          <span class='badge white-text green'>TECNO POP 8 (Mystery White, 4GB+64GB)| 90Hz Punch Hole Display with Dynamic Port & Dual Speakers with DTS| 5000mAh Battery |10W Type-C| Side Fingerprint Sensor| Octa-Core Processor</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:08 pm</td>
+        <td>
+          <span class='badge white-text green'>POCO X6 Neo 5G (Horizon Blue, 8GB RAM, 128GB Storage) | Dimensity 6080 Processor | 5000 mAh Battery + 33W Fast Charging | 108MP + 2MP Rear Camera & 16MP Front Camera</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:08 pm</td>
+        <td>
+          <span class='badge white-text green'>itel A50|6.6" HD+ Display with Dynamic Bar| 3GB RAM +64GB ROM, Upto 8GB RAM with Memory Fusion|Octacore Processor|8MP AI Dual Rear Cam|5000 mAh Battery | Misty Black</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:08 pm</td>
+        <td>
+          <span class='badge white-text green'>Redmi 13C 5G (Startrail Silver, 4GB RAM, 128GB Storage) | MediaTek Dimensity 6100+ 5G | 90Hz Display</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:08 pm</td>
+        <td>
+          <span class='badge white-text green'>TECNO POVA 6 NEO (Midnight Shadow, 8GB+256GB)| Advanced AI Features | 108MP Ultra Clear AI Camera | D6300 Powerful Processor | 5 Year Lag Free Fluency | 5000 mAh Battery | in Build Infrared and NFC</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:08 pm</td>
+        <td>
+          <span class='badge white-text green'>Vivo T3x 5G (Crimson Bliss, 128 GB) (6 GB RAM)</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:08 pm</td>
+        <td>
+          <span class='badge white-text green'>itel A50|6.6" HD+ Display with Dynamic Bar| 3GB RAM +64GB ROM, Upto 8GB RAM with Memory Fusion|Octacore Processor|8MP AI Dual Rear Cam|5000 mAh Battery | Cyan Blue</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:08 pm</td>
+        <td>
+          <span class='badge white-text green'>itel A50|6.6" HD+ Display with Dynamic Bar| 3GB RAM +64GB ROM, Upto 8GB RAM with Memory Fusion|Octacore Processor|8MP AI Dual Rear Cam|5000 mAh Battery | Lime Green</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:08 pm</td>
+        <td>
+          <span class='badge white-text green'>Lava O2 (Imperial Green, 8GB RAM, UFS 2.2 128GB Storage) |AG Glass Back|T616 Octacore Processor|18W Fast Charging|6.5 inch 90Hz Punch Hole Display|50MP AI Dual Camera|Upto 16GB Expandable RAM</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Product Search-Laptop</p>
+            <p class="text-sm">
+              <span>7:49:08 pm</span> / <span>00:00:03:462</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Product Search-Laptop</h5>
+<span class='badge badge-success'>09.18.2024 7:49:08 pm</span>
+<span class='badge badge-danger'>09.18.2024 7:49:12 pm</span>
+<span class='badge badge-default'>00:00:03:462</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:11 pm</td>
+        <td>
+          <span class='badge white-text green'>Total products founud for Laptop : 22</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:11 pm</td>
+        <td>
+          <span class='badge white-text green'>Dell 15 Thin & Light Laptop, 12th Gen Intel Core i5-1235U Processor, 8GB, 512GB SSD, 15.6" (38) cm FHD Display, Windows 11 + MSO'21, 15 Month McAfee Antivirus, Black, Spill-Resistant Keyboard,1.66kg</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:11 pm</td>
+        <td>
+          <span class='badge white-text green'>Lenovo IdeaPad Slim 3 Intel Core i3 12th Gen 15.6" (39.62cm) FHD Thin & Light Laptop (8GB/512GB SSD/Windows 11/Office 2021/1Yr ADP Free/3months Game Pass/Arctic Grey/1.63Kg), 82RK00VTIN</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:11 pm</td>
+        <td>
+          <span class='badge white-text green'>HP Laptop 15, 13th Gen Intel® Core i5-1334U, 15.6-inch(39.6 cm), FHD, 8GB DDR4(3200 MHZ),512GB SSD,MSO,Dual Speakers,Win 11, Natural Silver, 1.6kg, 15-fd0220TU</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:11 pm</td>
+        <td>
+          <span class='badge white-text green'>Lenovo IdeaPad Flex 5 12th Gen Intel Core i5-1235U 14"(35.56cm) WUXGA IPS 2-in-1 Laptop (16GB/512GB SSD/Win 11/Office 21/Backlit KB/Fingerprint/FHD Camera/Alexa/3 mon Game Pass/Grey/1.5Kg), 82R700JJIN</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:11 pm</td>
+        <td>
+          <span class='badge white-text green'>Lenovo V15 AMD Ryzen 7 7730U 15.6" (39.62cm) FHD 250 Nits Antiglare Thin and Light Laptop (16GB/512GB SSD/DOS/Iron Grey/1.65 Kg)</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:11 pm</td>
+        <td>
+          <span class='badge white-text green'>Acer Aspire Lite AMD Ryzen 5 5500U Premium Thin and Light Laptop (16 GB RAM/512 GB SSD/Windows 11 Home) AL15-41, 39.62 cm (15.6") Full HD Display, Metal Body, Steel Gray, 1.59 KG</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:12 pm</td>
+        <td>
+          <span class='badge white-text green'>Lenovo IdeaPad Slim 3 12th Gen Intel Core i5-12450H 14" (35.5cm) FHD 250 Nits Thin & Light Laptop (16GB/512GB SSD/Win 11/Office 21/1Yr ADP Free/Alexa built-in/3 mon. Game Pass/Grey/1.37Kg), 83EQ005VIN</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:12 pm</td>
+        <td>
+          <span class='badge white-text green'>HP Laptop 15s, AMD Ryzen 3 5300U, 15.6-inch (39.6 cm), FHD, 8GB DDR4, 512GB SSD, AMD Radeon Graphics, Thin & Light, Dual Speakers (Win 11, MSO 2019, Silver, 1.69 kg), eq2143AU</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:12 pm</td>
+        <td>
+          <span class='badge white-text green'>Lenovo IdeaPad Slim 1 Intel Core Celeron N4020 14" HD Thin and Light Laptop (8GB/512GB SSD/Windows 11 Home/Office 21/1Yr Warranty/Cloud Grey/1.3Kg), 82V6009LIN</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:12 pm</td>
+        <td>
+          <span class='badge white-text green'>Lenovo ThinkBook 16 Intel 13th Gen Core i5 16" (40.64cm) WUXGA IPS 300 Nits Antiglare Thin and Light Laptop (16GB/512GB SSD/Win 11 Home/Backlit Keyboard/Arctic Grey/1.7 Kg), 21KHA081IN</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:12 pm</td>
+        <td>
+          <span class='badge white-text green'>(Refurbished) Lenovo ThinkPad P50 Intel Core i7-6820HQ Quad Core Processor Nvidia M1000M 2GB Graphic Laptop (16 GB DDR4 RAM/128 GB SSD/15.6" (39.62 cm) FHD (1080p)/Windows 10/WiFi/Bluetooth/Webcam)</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:12 pm</td>
+        <td>
+          <span class='badge white-text green'>(Refurbished) Fujitsu Laptop H770 Intel Core i7-7th Gen Xeon E3-1505M V6 @ 3.0 Ghz Processor4GB Nvidia Quadro M2200 Graphic (8GB RAM/256GB SSD/15.6" FHD (1080p)/Win 10/BT/ Numeric Keypad/ Silver)</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:12 pm</td>
+        <td>
+          <span class='badge white-text green'>Lenovo IdeaPad Slim 1 AMD Ryzen 5 5500U 15.6" HD Thin and Light Laptop (16GB/512GB SSD/Windows 11 Home/MS Office 2021/1Yr ADP Free/Cloud Grey/1.61Kg), 82R400ERIN</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:12 pm</td>
+        <td>
+          <span class='badge white-text green'>Lenovo IdeaPad Slim 5 Intel Core Ultra 5 125H Built-in AI 14" (35.5cm) WUXGA-OLED 400Nits Thin & Light Laptop (16GB/1TB SSD/Win 11/Office 21/FHD+IR Camera/Alexa/3 Mon GamePass/Grey/1.4Kg), 83DA003GIN</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:12 pm</td>
+        <td>
+          <span class='badge white-text green'>Lenovo LOQ 2024 12th Gen Intel Core i5-12450HX 15.6" (39.6cm) 144Hz 300Nits FHD Gaming Laptop (24GB/512GB SSD/Win 11/NVIDIA RTX 2050 4GB/100% sRGB/3 Mon. Game Pass/1Yr ADP Free/Grey/2.4Kg), 83GS00CKIN</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:12 pm</td>
+        <td>
+          <span class='badge white-text green'>ASUS Vivobook 15, Intel Celeron N4020, 15.6" (39.62 cms) HD, Thin and Light Laptop (8GB/512GB SSD/Integrated Graphics/Windows 11/Office 2021/Silver/1.8 kg), X515MA-BR022WS</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:12 pm</td>
+        <td>
+          <span class='badge white-text green'>HP Laptop 15,13th Gen Intel® Core™ i5-1335U,15.6inch(39.6 cm),FHD,Anti-Glare,8GB DDR4,512GB SSD,Dual Speakers,Windows 11,MSO,Natural Silver,1.59 kg,15-fd0187TU</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:12 pm</td>
+        <td>
+          <span class='badge white-text green'>HP Laptop 15,12th Gen Intel Core i5-1235U,15.6 inch(39.6 cm),FHD,Anti-Glare, 16GB DDR4,512 GB SSD,Windows 11,MSO,Dual Speakers,1.59 kg,Natural Silver,15-fd0111TU</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:12 pm</td>
+        <td>
+          <span class='badge white-text green'>Acer Aspire Lite AMD Ryzen 5-5500U Processor Premium Laptop (16GB RAM/512GB SSD/Win11 Home/AMD Radeon Graphics) AL15-41, 39.62cm(15.6") Full HD Display, Multi Color Backlit Keyboard, Steel Gray,1.59KG</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:12 pm</td>
+        <td>
+          <span class='badge white-text green'>Acer Nitro V Gaming Laptop AMD Ryzen 7-7735HS with RTX 4050 6 GB Graphics (16 GB DDR5/512GB SSD/Windows 11 Home/Wi-Fi 6/144Hz) ANV15-41, 15.6" FHD Display, 2.1 KG</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:12 pm</td>
+        <td>
+          <span class='badge white-text green'>(Refurbished) Dell Precision 7520 Intel Core i7 - 7920HQ Quad Core Processor 7th Gen, 32 GB Ram & 2TB SSD, 15.6 Inches (Numeric Keypad) FHD Screen with Nvidia Quadro M2200 (4GB Graphic Card) Laptop</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:12 pm</td>
+        <td>
+          <span class='badge white-text green'>WildHorn Leather Laptop Messenger Bag for Laptop/MacBook up to 15 inch| Padded Laptop Compartment |Office Bag I 365 Days Warranty</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Sep 18, 2024 07:47:46 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Sep 18, 2024 07:49:12 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>5</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>5</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>64</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Login":3.393,"user validation":64.151,"Product Search-LCD":10.266,"Product Search-Mobile":3.463,"Product Search-Laptop":3.462
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 5,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 64,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 0
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c05cd28cde1617b9d0c05a831daff6cb97fd9fd5/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
